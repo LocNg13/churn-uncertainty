@@ -6,7 +6,7 @@ Code used for Master's thesis "Identifying Risky Customers with Venn–Abers Cal
 2. analyse the resulting prediction‑interval widths** in depth (`width_analysis.py`);
 3. quantify calibration quality & pair‑wise statistical relationships** among the different width definitions (`correlation_analysis.py`).
 
-Together they show **how uncertainty estimates can be used to find “knife‑edge” customers whose churn risk is inherently ambiguous**—and therefore worth extra attention.
+Together they show **how uncertainty estimates can be used to find customers whose churn risk is inherently ambiguous**—and therefore worth extra attention.
 
 
 
