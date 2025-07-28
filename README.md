@@ -17,7 +17,7 @@ Together they show **how uncertainty estimates can be used to find customers who
 | **`pipeline.py`** | End‑to‑end workflow: data load → feature engineering → model training → *multi‑split BA‑IVAP* calibration & width computation → CSV of predictions.<br/>*Requires GPU XGBoost – CUDA ≥ 11.2.* |
 | **`width_analysis.py`** | Reads the test‑set prediction CSV and generates<br/>  • `width_summary.csv` (descriptive stats)<br/>  • histograms / KDEs, lift‑curves, scatter & correlation plots<br/>  • `churner_distribution_by_uncertainty.csv`. |
 | **`correlation_analysis.py`** | Quick check of calibration quality:<br/>  • decile‑trend test (does width ↑ → churn ↑ ?)<br/>  • pairwise Pearson/Spearman correlations (`width_pairwise_correlation.csv`)<br/>  • two 2 × 2 grids (distribution & trend). |
-| **`VennABERS.py`** | Unmodified helper from <https://github.com/ptocca/VennABERS> – Paolo Toccaceli’s reference implementation of the Inductive Venn–Abers Predictor (IVAP, Vovk et al. 2015). |
+| **`VennABERS.py`** | Script from <https://github.com/ptocca/VennABERS> – Paolo Toccaceli’s reference implementation of the Inductive Venn–Abers Predictor (IVAP, Vovk et al. 2015). |
 
 ---
 
